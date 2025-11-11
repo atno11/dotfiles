@@ -19,7 +19,7 @@ pacman_packages=(
 
 aur_packages=(
 	# Hyprland & Wayland Environment
-	wlogout
+	wlogout matugen
 	# Communication
 	spotify firefox
 	# Code Editors and Ides
