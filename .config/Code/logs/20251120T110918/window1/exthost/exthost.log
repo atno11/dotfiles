@@ -1,0 +1,11 @@
+2025-11-20 11:09:20.107 [info] Extension host with pid 4118 started
+2025-11-20 11:09:20.107 [info] Skipping acquiring lock for /home/atno/.config/Code/User/workspaceStorage/372812518f2fbde5322feaad2e239265.
+2025-11-20 11:09:20.332 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-20 11:09:20.368 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-20 11:09:20.500 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-20 11:09:20.578 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-20 11:09:20.682 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-20 11:09:20.748 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-20 11:09:20.980 [info] Eager extensions activated
+2025-11-20 11:09:20.985 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-20 11:09:20.989 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

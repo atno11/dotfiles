@@ -1,0 +1,4 @@
+2025-11-20 11:13:18.582 [error] #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2025-11-20 11:15:27.297 [error] #12: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2025-11-20 11:15:29.754 [error] #13: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2025-11-20 11:15:30.926 [error] #14: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR

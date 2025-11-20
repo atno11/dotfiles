@@ -1,0 +1,5 @@
+{
+    "editor.fontFamily": "'SpaceMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "terminal.integrated.fontFamily": "'SpaceMono Nerd Font'",
+    "explorer.confirmDragAndDrop": false
+}

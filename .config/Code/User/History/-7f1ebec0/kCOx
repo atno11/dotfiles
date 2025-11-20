@@ -1,0 +1,11 @@
+Host github-atno
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519_github_atno
+    IdentitiesOnly yes
+
+Host github-gilmar
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519_github_gilmar
+    IdentitiesOnly yes

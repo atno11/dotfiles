@@ -1,0 +1,822 @@
+20:31:51.596: Crash or unclean shutdown detected
+20:31:54.035: [Safe Mode] Normal launch selected, loading third-party plugins is enabled
+20:31:54.035: Platform: Wayland
+20:31:54.035: CPU Name: Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz
+20:31:54.035: CPU Speed: 2928.255MHz
+20:31:54.036: Physical Cores: 10, Logical Cores: 10
+20:31:54.036: Physical Memory: 7772MB Total, 5230MB Free
+20:31:54.036: Kernel Version: Linux 6.17.8-arch1-1
+20:31:54.036: Distribution: "Arch Linux" Unknown
+20:31:54.036: Desktop Environment: Hyprland (Hyprland)
+20:31:54.036: Session Type: wayland
+20:31:54.046: Current Date/Time: 2025-11-19, 20:31:54
+20:31:54.046: Browser Hardware Acceleration: true
+20:31:54.046: Qt Version: 6.10.0 (runtime), 6.9.2 (compiled)
+20:31:54.046: Portable mode: false
+20:31:54.111: OBS 32.0.1 (linux)
+20:31:54.112: ---------------------------------
+20:31:54.113: ---------------------------------
+20:31:54.113: audio settings reset:
+20:31:54.113: 	samples per sec: 48000
+20:31:54.113: 	speakers:        2
+20:31:54.113: 	max buffering:   960 milliseconds
+20:31:54.113: 	buffering type:  dynamically increasing
+20:31:54.120: ---------------------------------
+20:31:54.120: Initializing OpenGL...
+20:31:54.120: Using EGL/Wayland
+20:31:54.201: Initialized EGL 1.5
+20:31:54.225: Loading up OpenGL on adapter AMD BONAIRE (radeonsi, , ACO, DRM 2.51, 6.17.8-arch1-1)
+20:31:54.225: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 25.2.7-arch1.1, shading language 4.50
+20:31:54.273: ---------------------------------
+20:31:54.273: video settings reset:
+20:31:54.273: 	base resolution:   1920x1080
+20:31:54.273: 	output resolution: 1920x1080
+20:31:54.273: 	downscale filter:  Bicubic
+20:31:54.273: 	fps:               60/1
+20:31:54.273: 	format:            NV12
+20:31:54.273: 	YUV mode:          Rec. 709/Partial
+20:31:54.273: NV12 texture support enabled
+20:31:54.273: P010 texture support not available
+20:31:54.275: Audio monitoring device:
+20:31:54.275: 	name: Padrão
+20:31:54.275: 	id: default
+20:31:54.277: ---------------------------------
+20:31:54.279: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:31:54.282: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:31:54.285: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:31:54.285: Failed to initialize module 'decklink.so'
+20:31:54.423: [pipewire] Available capture sources:
+20:31:54.423: [pipewire]     - Monitor source
+20:31:54.423: [pipewire]     - Window source
+20:31:54.436: v4l2loopback not installed, virtual camera not registered
+20:31:54.483: VAAPI: API version 1.22
+20:31:54.484: FFmpeg VAAPI H264 encoding supported
+20:31:54.487: FFmpeg VAAPI AV1 encoding not supported
+20:31:54.491: FFmpeg VAAPI HEVC encoding not supported
+20:31:54.500: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+20:31:54.500: 
+20:31:54.500: NVENC not supported
+20:31:54.500: Failed to initialize module 'obs-nvenc.so'
+20:31:54.552: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+20:31:54.552: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.2 | Qt version (run-time): 6.10.0
+20:31:54.552: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+20:31:54.558: [obs-websocket] [obs_module_load] Module loaded.
+20:31:54.565: ---------------------------------
+20:31:54.565:   Loaded Modules:
+20:31:54.565:     text-freetype2.so
+20:31:54.565:     rtmp-services.so
+20:31:54.565:     obs-x264.so
+20:31:54.566:     obs-websocket.so
+20:31:54.566:     obs-webrtc.so
+20:31:54.566:     obs-vst.so
+20:31:54.566:     obs-transitions.so
+20:31:54.566:     obs-qsv11.so
+20:31:54.566:     obs-outputs.so
+20:31:54.566:     obs-libfdk.so
+20:31:54.566:     obs-filters.so
+20:31:54.566:     obs-ffmpeg.so
+20:31:54.566:     linux-v4l2.so
+20:31:54.566:     linux-pulseaudio.so
+20:31:54.566:     linux-pipewire.so
+20:31:54.566:     linux-jack.so
+20:31:54.566:     linux-capture.so
+20:31:54.566:     linux-alsa.so
+20:31:54.566:     image-source.so
+20:31:54.566:     frontend-tools.so
+20:31:54.566:     decklink-output-ui.so
+20:31:54.566:     decklink-captions.so
+20:31:54.566: ---------------------------------
+20:31:54.566: ---------------------------------
+20:31:54.566: Available Encoders:
+20:31:54.566:   Video Encoders:
+20:31:54.566: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:31:54.566: 	- ffmpeg_aom_av1 (AOM AV1)
+20:31:54.566: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+20:31:54.566: 	- obs_x264 (x264)
+20:31:54.566:   Audio Encoders:
+20:31:54.566: 	- ffmpeg_aac (FFmpeg AAC)
+20:31:54.566: 	- ffmpeg_opus (FFmpeg Opus)
+20:31:54.566: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:31:54.566: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:31:54.566: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:31:54.566: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:31:54.566: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:31:54.566: 	- libfdk_aac (libfdk AAC)
+20:31:54.566: ==== Startup complete ===============================================
+20:31:54.606: All scene data cleared
+20:31:54.606: ------------------------------------------------
+20:31:54.616: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+20:31:54.616: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+20:31:54.617: pulse-input: Started recording from 'sink-discord.monitor'
+20:31:54.617: [Loaded global audio device]: 'Discord'
+20:31:54.617: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+20:31:54.617: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+20:31:54.618: pulse-input: Started recording from 'win-system-sink.monitor'
+20:31:54.618: [Loaded global audio device]: 'Windows'
+20:31:54.618: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+20:31:54.619: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:31:54.619: pulse-input: Started recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo'
+20:31:54.619: [Loaded global audio device]: 'Fifine'
+20:31:54.619:     - filter: 'Filtro de ruídos' (noise_gate_filter)
+20:31:54.619: v4l2-input: Start capture from /dev/video0
+20:31:54.621: v4l2-input: Input: 0
+20:31:54.653: v4l2-input: Resolution: 1920x1080
+20:31:54.653: v4l2-input: Pixelformat: YUYV
+20:31:54.654: v4l2-input: Linesize: 3840 Bytes
+20:31:54.654: v4l2-input: Framerate: 60.00 fps
+20:31:54.656: v4l2-input: /dev/video0: select timeout set to 83333 (5x frame periods)
+20:31:54.658: Switched to scene 'Cena'
+20:31:54.658: ------------------------------------------------
+20:31:54.658: Loaded scenes:
+20:31:54.658: - scene 'Cena':
+20:31:54.658:     - source: 'Dispositivo de captura de vídeo (V4L2)' (v4l2_input)
+20:31:54.658: ------------------------------------------------
+20:31:55.287: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Discord)
+20:31:55.287: 
+20:36:00.886: pulse-input: Stopped recording from 'sink-spotify.monitor'
+20:36:00.886: pulse-input: Got 9844 packets with 11812800 frames
+20:36:00.887: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+20:36:00.887: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+20:36:00.887: pulse-input: Started recording from 'sink-spotify.monitor'
+20:36:04.878: pulse-input: Stopped recording from 'sink-discord.monitor'
+20:36:04.878: pulse-input: Got 147 packets with 176400 frames
+20:36:04.879: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+20:36:04.879: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+20:36:04.880: pulse-input: Started recording from 'sink-discord.monitor'
+20:36:08.142: Get on org.freedesktop.portal.Settings returned an invalid reply
+20:36:08.142: Get on org.freedesktop.portal.Settings returned an invalid reply
+20:38:41.532: ---------------------------------
+20:38:41.532: [x264 encoder: 'simple_video_recording'] preset: veryfast
+20:38:41.532: [x264 encoder: 'simple_video_recording'] profile: high
+20:38:41.532: [x264 encoder: 'simple_video_recording'] settings:
+20:38:41.532: 	rate_control: CRF
+20:38:41.532: 	bitrate:      0
+20:38:41.532: 	buffer size:  0
+20:38:41.532: 	crf:          23
+20:38:41.532: 	fps_num:      60
+20:38:41.532: 	fps_den:      1
+20:38:41.532: 	width:        1920
+20:38:41.532: 	height:       1080
+20:38:41.532: 	keyint:       250
+20:38:41.532: 
+20:38:41.554: libfdk_aac encoder created
+20:38:41.554: libfdk_aac bitrate: 192, channels: 2
+20:38:41.554: libfdk_aac encoder created
+20:38:41.554: libfdk_aac bitrate: 192, channels: 2
+20:38:41.555: libfdk_aac encoder created
+20:38:41.555: libfdk_aac bitrate: 192, channels: 2
+20:38:41.555: libfdk_aac encoder created
+20:38:41.555: libfdk_aac bitrate: 192, channels: 2
+20:38:41.555: libfdk_aac encoder created
+20:38:41.555: libfdk_aac bitrate: 192, channels: 2
+20:38:41.555: libfdk_aac encoder created
+20:38:41.556: libfdk_aac bitrate: 192, channels: 2
+20:38:41.562: ==== Recording Start ===============================================
+20:38:41.562: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-19_20-38-41.mp4'...
+20:38:59.523: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+20:38:59.524: [mp4 muxer: 'simple_file_output'] Number of fragments: 5
+20:38:59.525: [mp4 muxer: 'simple_file_output'] Full moov size: 35 KiB
+20:38:59.525: [mp4 muxer: 'simple_file_output'] Final mdat size: 2792 KiB
+20:38:59.525: Output 'simple_file_output': stopping
+20:38:59.525: Output 'simple_file_output': Total frames output: 1048
+20:38:59.525: Output 'simple_file_output': Total drawn frames: 1077
+20:38:59.525: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+20:38:59.525: [mp4 output: 'simple_file_output'] File output complete. Finalization took 1 ms.
+20:38:59.527: ==== Recording Stop ================================================
+20:38:59.536: libfdk_aac encoder destroyed
+20:38:59.536: libfdk_aac encoder destroyed
+20:38:59.536: libfdk_aac encoder destroyed
+20:38:59.536: libfdk_aac encoder destroyed
+20:38:59.536: libfdk_aac encoder destroyed
+20:38:59.536: libfdk_aac encoder destroyed
+20:39:50.601: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5588cfef1910 with focusing surface 0x5588cebbbce0
+20:39:52.476: alsa-input: PCM 'default' rate set to 44100
+20:39:52.476: alsa-input: PCM 'default' channels set to 2
+20:39:52.631: User added source 'Spotify' (alsa_input_capture) to scene 'Cena'
+20:39:52.638: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5588cebbbce0 with focusing surface 0x5588cfef1910
+20:39:52.788: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5588d13a2090 with focusing surface 0x5588cebbbce0
+20:39:56.107: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5588d13a2090 with focusing surface 0x5588cebbbce0
+20:39:59.391: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5588d14e3ab0 with focusing surface 0x5588cebbbce0
+20:39:59.598: User Removed source 'Spotify' (alsa_input_capture) from scene 'Cena'
+20:40:01.780: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5588d142c270 with focusing surface 0x5588cebbbce0
+20:40:03.897: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+20:40:03.898: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:40:03.898: pulse-input: Started recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo' (default)
+20:40:03.904: User added source 'Spotiyf' (pulse_input_capture) to scene 'Cena'
+20:40:03.919: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5588cebbbce0 with focusing surface 0x5588d142c270
+20:40:03.953: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5588d1876370 with focusing surface 0x5588cebbbce0
+20:40:08.321: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5588d0e89c90 with focusing surface 0x5588cebbbce0
+20:40:08.886: User Removed source 'Spotiyf' (pulse_input_capture) from scene 'Cena'
+20:40:08.894: pulse-input: Stopped recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo'
+20:40:08.894: pulse-input: Got 192 packets with 230400 frames
+20:40:13.987: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5588d13c9d70 with focusing surface 0x5588cebbbce0
+20:40:15.696: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+20:40:15.696: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+20:40:15.696: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+20:40:15.697: pulse-input: Started recording from 'alsa_output.usb-HP__Inc_HyperX_Cloud_Alpha_Wireless_00000001-00.analog-stereo.monitor' (default)
+20:40:15.700: User added source 'Spotify' (pulse_output_capture) to scene 'Cena'
+20:40:15.703: Device for 'Audio Output Capture' source is also used for audio monitoring:
+20:40:15.703: Deduplication logic is being applied to all monitored sources.
+20:40:15.703: 
+20:40:15.704: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5588cebbbce0 with focusing surface 0x5588d13c9d70
+20:40:15.726: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5588d0a0f870 with focusing surface 0x5588cebbbce0
+20:40:16.559: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5588d0a0f870 with focusing surface 0x5588cebbbce0
+20:40:18.532: pulse-input: Stopped recording from 'sink-spotify.monitor'
+20:40:18.532: pulse-input: Got 106 packets with 127200 frames
+20:40:18.533: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+20:40:18.534: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+20:40:18.534: pulse-input: Started recording from 'sink-spotify.monitor'
+20:41:08.126: ---------------------------------
+20:41:08.126: [x264 encoder: 'simple_video_recording'] preset: veryfast
+20:41:08.126: [x264 encoder: 'simple_video_recording'] profile: high
+20:41:08.126: [x264 encoder: 'simple_video_recording'] settings:
+20:41:08.126: 	rate_control: CRF
+20:41:08.126: 	bitrate:      0
+20:41:08.126: 	buffer size:  0
+20:41:08.126: 	crf:          23
+20:41:08.126: 	fps_num:      60
+20:41:08.126: 	fps_den:      1
+20:41:08.126: 	width:        1920
+20:41:08.126: 	height:       1080
+20:41:08.126: 	keyint:       250
+20:41:08.126: 
+20:41:08.142: libfdk_aac encoder created
+20:41:08.142: libfdk_aac bitrate: 192, channels: 2
+20:41:08.143: libfdk_aac encoder created
+20:41:08.143: libfdk_aac bitrate: 192, channels: 2
+20:41:08.143: libfdk_aac encoder created
+20:41:08.143: libfdk_aac bitrate: 192, channels: 2
+20:41:08.144: libfdk_aac encoder created
+20:41:08.144: libfdk_aac bitrate: 192, channels: 2
+20:41:08.144: libfdk_aac encoder created
+20:41:08.144: libfdk_aac bitrate: 192, channels: 2
+20:41:08.144: libfdk_aac encoder created
+20:41:08.144: libfdk_aac bitrate: 192, channels: 2
+20:41:08.147: ==== Recording Start ===============================================
+20:41:08.147: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-19_20-41-08.mp4'...
+20:41:22.886: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+20:41:22.887: [mp4 muxer: 'simple_file_output'] Number of fragments: 4
+20:41:22.888: [mp4 muxer: 'simple_file_output'] Full moov size: 30 KiB
+20:41:22.888: [mp4 muxer: 'simple_file_output'] Final mdat size: 2271 KiB
+20:41:22.888: Output 'simple_file_output': stopping
+20:41:22.888: Output 'simple_file_output': Total frames output: 854
+20:41:22.888: Output 'simple_file_output': Total drawn frames: 884
+20:41:22.889: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+20:41:22.889: [mp4 output: 'simple_file_output'] File output complete. Finalization took 2 ms.
+20:41:22.892: ==== Recording Stop ================================================
+20:41:22.898: libfdk_aac encoder destroyed
+20:41:22.899: libfdk_aac encoder destroyed
+20:41:22.899: libfdk_aac encoder destroyed
+20:41:22.899: libfdk_aac encoder destroyed
+20:41:22.899: libfdk_aac encoder destroyed
+20:41:22.899: libfdk_aac encoder destroyed
+20:42:49.202: ---------------------------------
+20:42:49.202: [x264 encoder: 'simple_video_recording'] preset: veryfast
+20:42:49.202: [x264 encoder: 'simple_video_recording'] profile: high
+20:42:49.202: [x264 encoder: 'simple_video_recording'] settings:
+20:42:49.202: 	rate_control: CRF
+20:42:49.202: 	bitrate:      0
+20:42:49.202: 	buffer size:  0
+20:42:49.202: 	crf:          23
+20:42:49.202: 	fps_num:      60
+20:42:49.202: 	fps_den:      1
+20:42:49.202: 	width:        1920
+20:42:49.202: 	height:       1080
+20:42:49.202: 	keyint:       250
+20:42:49.202: 
+20:42:49.227: libfdk_aac encoder created
+20:42:49.227: libfdk_aac bitrate: 192, channels: 2
+20:42:49.228: libfdk_aac encoder created
+20:42:49.228: libfdk_aac bitrate: 192, channels: 2
+20:42:49.228: libfdk_aac encoder created
+20:42:49.228: libfdk_aac bitrate: 192, channels: 2
+20:42:49.228: libfdk_aac encoder created
+20:42:49.228: libfdk_aac bitrate: 192, channels: 2
+20:42:49.228: libfdk_aac encoder created
+20:42:49.228: libfdk_aac bitrate: 192, channels: 2
+20:42:49.229: libfdk_aac encoder created
+20:42:49.229: libfdk_aac bitrate: 192, channels: 2
+20:42:49.233: ==== Recording Start ===============================================
+20:42:49.233: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-19_20-42-49.mp4'...
+20:43:11.432: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+20:43:11.432: [mp4 muxer: 'simple_file_output'] Number of fragments: 6
+20:43:11.434: [mp4 muxer: 'simple_file_output'] Full moov size: 43 KiB
+20:43:11.434: [mp4 muxer: 'simple_file_output'] Final mdat size: 3850 KiB
+20:43:11.434: Output 'simple_file_output': stopping
+20:43:11.434: Output 'simple_file_output': Total frames output: 1300
+20:43:11.434: Output 'simple_file_output': Total drawn frames: 1332
+20:43:11.434: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+20:43:11.434: [mp4 output: 'simple_file_output'] File output complete. Finalization took 2 ms.
+20:43:11.435: ==== Recording Stop ================================================
+20:43:11.449: libfdk_aac encoder destroyed
+20:43:11.449: libfdk_aac encoder destroyed
+20:43:11.449: libfdk_aac encoder destroyed
+20:43:11.449: libfdk_aac encoder destroyed
+20:43:11.449: libfdk_aac encoder destroyed
+20:43:11.449: libfdk_aac encoder destroyed
+21:00:54.829: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Fifine)
+21:00:54.829: 
+21:59:06.866: ---------------------------------
+21:59:06.866: [x264 encoder: 'simple_video_recording'] preset: veryfast
+21:59:06.866: [x264 encoder: 'simple_video_recording'] profile: high
+21:59:06.866: [x264 encoder: 'simple_video_recording'] settings:
+21:59:06.866: 	rate_control: CRF
+21:59:06.866: 	bitrate:      0
+21:59:06.866: 	buffer size:  0
+21:59:06.866: 	crf:          23
+21:59:06.866: 	fps_num:      60
+21:59:06.866: 	fps_den:      1
+21:59:06.866: 	width:        1920
+21:59:06.866: 	height:       1080
+21:59:06.866: 	keyint:       250
+21:59:06.866: 
+21:59:06.881: libfdk_aac encoder created
+21:59:06.881: libfdk_aac bitrate: 192, channels: 2
+21:59:06.881: libfdk_aac encoder created
+21:59:06.881: libfdk_aac bitrate: 192, channels: 2
+21:59:06.881: libfdk_aac encoder created
+21:59:06.881: libfdk_aac bitrate: 192, channels: 2
+21:59:06.881: libfdk_aac encoder created
+21:59:06.881: libfdk_aac bitrate: 192, channels: 2
+21:59:06.882: libfdk_aac encoder created
+21:59:06.882: libfdk_aac bitrate: 192, channels: 2
+21:59:06.882: libfdk_aac encoder created
+21:59:06.882: libfdk_aac bitrate: 192, channels: 2
+21:59:06.884: ==== Recording Start ===============================================
+21:59:06.884: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-19_21-59-06.mp4'...
+22:13:52.025: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+22:13:52.030: [mp4 muxer: 'simple_file_output'] Number of fragments: 223
+22:13:52.054: [mp4 muxer: 'simple_file_output'] Full moov size: 1605 KiB
+22:13:52.054: [mp4 muxer: 'simple_file_output'] Final mdat size: 918577 KiB
+22:13:52.054: Output 'simple_file_output': stopping
+22:13:52.054: Output 'simple_file_output': Total frames output: 53071
+22:13:52.054: Output 'simple_file_output': Total drawn frames: 53098 (53110 attempted)
+22:13:52.054: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 12 (0.0%)
+22:13:52.054: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+22:13:52.055: ==== Recording Stop ================================================
+22:13:52.055: [mp4 output: 'simple_file_output'] File output complete. Finalization took 30 ms.
+22:13:52.055: Video stopped, number of skipped frames due to encoding lag: 19/53108 (0.0%)
+22:13:52.097: libfdk_aac encoder destroyed
+22:13:52.097: libfdk_aac encoder destroyed
+22:13:52.097: libfdk_aac encoder destroyed
+22:13:52.097: libfdk_aac encoder destroyed
+22:13:52.097: libfdk_aac encoder destroyed
+22:13:52.097: libfdk_aac encoder destroyed
+23:11:30.998: ---------------------------------
+23:11:30.998: [x264 encoder: 'simple_video_recording'] preset: veryfast
+23:11:30.998: [x264 encoder: 'simple_video_recording'] profile: high
+23:11:30.998: [x264 encoder: 'simple_video_recording'] settings:
+23:11:30.998: 	rate_control: CRF
+23:11:30.998: 	bitrate:      0
+23:11:30.998: 	buffer size:  0
+23:11:30.998: 	crf:          23
+23:11:30.998: 	fps_num:      60
+23:11:30.998: 	fps_den:      1
+23:11:30.998: 	width:        1920
+23:11:30.998: 	height:       1080
+23:11:30.998: 	keyint:       250
+23:11:30.998: 
+23:11:31.014: libfdk_aac encoder created
+23:11:31.014: libfdk_aac bitrate: 192, channels: 2
+23:11:31.014: libfdk_aac encoder created
+23:11:31.014: libfdk_aac bitrate: 192, channels: 2
+23:11:31.014: libfdk_aac encoder created
+23:11:31.014: libfdk_aac bitrate: 192, channels: 2
+23:11:31.014: libfdk_aac encoder created
+23:11:31.014: libfdk_aac bitrate: 192, channels: 2
+23:11:31.014: libfdk_aac encoder created
+23:11:31.014: libfdk_aac bitrate: 192, channels: 2
+23:11:31.015: libfdk_aac encoder created
+23:11:31.015: libfdk_aac bitrate: 192, channels: 2
+23:11:31.018: ==== Recording Start ===============================================
+23:11:31.018: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-19_23-11-30.mp4'...
+23:18:30.488: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+23:18:30.488: [mp4 muxer: 'simple_file_output'] Number of fragments: 108
+23:18:30.504: [mp4 muxer: 'simple_file_output'] Full moov size: 762 KiB
+23:18:30.504: [mp4 muxer: 'simple_file_output'] Final mdat size: 404954 KiB
+23:18:30.504: Output 'simple_file_output': stopping
+23:18:30.504: Output 'simple_file_output': Total frames output: 25134
+23:18:30.504: Output 'simple_file_output': Total drawn frames: 25168 (25169 attempted)
+23:18:30.504: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0.0%)
+23:18:30.504: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+23:18:30.505: [mp4 output: 'simple_file_output'] File output complete. Finalization took 16 ms.
+23:18:30.506: ==== Recording Stop ================================================
+23:18:30.532: libfdk_aac encoder destroyed
+23:18:30.532: libfdk_aac encoder destroyed
+23:18:30.532: libfdk_aac encoder destroyed
+23:18:30.532: libfdk_aac encoder destroyed
+23:18:30.532: libfdk_aac encoder destroyed
+23:18:30.532: libfdk_aac encoder destroyed
+23:22:03.713: ---------------------------------
+23:22:03.713: [x264 encoder: 'simple_video_recording'] preset: veryfast
+23:22:03.713: [x264 encoder: 'simple_video_recording'] profile: high
+23:22:03.713: [x264 encoder: 'simple_video_recording'] settings:
+23:22:03.713: 	rate_control: CRF
+23:22:03.713: 	bitrate:      0
+23:22:03.713: 	buffer size:  0
+23:22:03.713: 	crf:          23
+23:22:03.713: 	fps_num:      60
+23:22:03.713: 	fps_den:      1
+23:22:03.713: 	width:        1920
+23:22:03.713: 	height:       1080
+23:22:03.713: 	keyint:       250
+23:22:03.713: 
+23:22:03.731: libfdk_aac encoder created
+23:22:03.731: libfdk_aac bitrate: 192, channels: 2
+23:22:03.731: libfdk_aac encoder created
+23:22:03.731: libfdk_aac bitrate: 192, channels: 2
+23:22:03.731: libfdk_aac encoder created
+23:22:03.731: libfdk_aac bitrate: 192, channels: 2
+23:22:03.731: libfdk_aac encoder created
+23:22:03.731: libfdk_aac bitrate: 192, channels: 2
+23:22:03.732: libfdk_aac encoder created
+23:22:03.732: libfdk_aac bitrate: 192, channels: 2
+23:22:03.732: libfdk_aac encoder created
+23:22:03.732: libfdk_aac bitrate: 192, channels: 2
+23:22:03.735: ==== Recording Start ===============================================
+23:22:03.735: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-19_23-22-03.mp4'...
+23:30:02.246: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+23:30:02.246: [mp4 muxer: 'simple_file_output'] Number of fragments: 123
+23:30:02.270: [mp4 muxer: 'simple_file_output'] Full moov size: 868 KiB
+23:30:02.270: [mp4 muxer: 'simple_file_output'] Final mdat size: 478105 KiB
+23:30:02.270: Output 'simple_file_output': stopping
+23:30:02.270: Output 'simple_file_output': Total frames output: 28670
+23:30:02.270: Output 'simple_file_output': Total drawn frames: 28709 (28712 attempted)
+23:30:02.270: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 3 (0.0%)
+23:30:02.271: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+23:30:02.271: [mp4 output: 'simple_file_output'] File output complete. Finalization took 25 ms.
+23:30:02.271: Video stopped, number of skipped frames due to encoding lag: 18/28710 (0.1%)
+23:30:02.272: ==== Recording Stop ================================================
+23:30:02.288: libfdk_aac encoder destroyed
+23:30:02.289: libfdk_aac encoder destroyed
+23:30:02.289: libfdk_aac encoder destroyed
+23:30:02.289: libfdk_aac encoder destroyed
+23:30:02.289: libfdk_aac encoder destroyed
+23:30:02.289: libfdk_aac encoder destroyed
+23:38:29.651: ---------------------------------
+23:38:29.651: [x264 encoder: 'simple_video_recording'] preset: veryfast
+23:38:29.651: [x264 encoder: 'simple_video_recording'] profile: high
+23:38:29.651: [x264 encoder: 'simple_video_recording'] settings:
+23:38:29.651: 	rate_control: CRF
+23:38:29.651: 	bitrate:      0
+23:38:29.651: 	buffer size:  0
+23:38:29.651: 	crf:          23
+23:38:29.651: 	fps_num:      60
+23:38:29.651: 	fps_den:      1
+23:38:29.651: 	width:        1920
+23:38:29.651: 	height:       1080
+23:38:29.651: 	keyint:       250
+23:38:29.651: 
+23:38:29.672: libfdk_aac encoder created
+23:38:29.672: libfdk_aac bitrate: 192, channels: 2
+23:38:29.672: libfdk_aac encoder created
+23:38:29.672: libfdk_aac bitrate: 192, channels: 2
+23:38:29.673: libfdk_aac encoder created
+23:38:29.673: libfdk_aac bitrate: 192, channels: 2
+23:38:29.673: libfdk_aac encoder created
+23:38:29.673: libfdk_aac bitrate: 192, channels: 2
+23:38:29.673: libfdk_aac encoder created
+23:38:29.673: libfdk_aac bitrate: 192, channels: 2
+23:38:29.673: libfdk_aac encoder created
+23:38:29.673: libfdk_aac bitrate: 192, channels: 2
+23:38:29.679: ==== Recording Start ===============================================
+23:38:29.679: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-19_23-38-29.mp4'...
+00:15:25.180: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+00:15:25.183: [mp4 muxer: 'simple_file_output'] Number of fragments: 584
+00:15:25.254: [mp4 muxer: 'simple_file_output'] Full moov size: 4001 KiB
+00:15:25.254: [mp4 muxer: 'simple_file_output'] Final mdat size: 2326754 KiB
+00:15:25.254: Output 'simple_file_output': stopping
+00:15:25.254: Output 'simple_file_output': Total frames output: 132896
+00:15:25.254: Output 'simple_file_output': Total drawn frames: 132929 (132934 attempted)
+00:15:25.254: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 5 (0.0%)
+00:15:25.254: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+00:15:25.255: ==== Recording Stop ================================================
+00:15:25.259: [mp4 output: 'simple_file_output'] File output complete. Finalization took 78 ms.
+00:15:25.298: libfdk_aac encoder destroyed
+00:15:25.298: libfdk_aac encoder destroyed
+00:15:25.298: libfdk_aac encoder destroyed
+00:15:25.298: libfdk_aac encoder destroyed
+00:15:25.299: libfdk_aac encoder destroyed
+00:15:25.299: libfdk_aac encoder destroyed
+00:26:11.826: ---------------------------------
+00:26:11.826: [x264 encoder: 'simple_video_recording'] preset: veryfast
+00:26:11.826: [x264 encoder: 'simple_video_recording'] profile: high
+00:26:11.826: [x264 encoder: 'simple_video_recording'] settings:
+00:26:11.826: 	rate_control: CRF
+00:26:11.826: 	bitrate:      0
+00:26:11.826: 	buffer size:  0
+00:26:11.826: 	crf:          23
+00:26:11.826: 	fps_num:      60
+00:26:11.826: 	fps_den:      1
+00:26:11.826: 	width:        1920
+00:26:11.826: 	height:       1080
+00:26:11.826: 	keyint:       250
+00:26:11.826: 
+00:26:11.849: libfdk_aac encoder created
+00:26:11.849: libfdk_aac bitrate: 192, channels: 2
+00:26:11.849: libfdk_aac encoder created
+00:26:11.849: libfdk_aac bitrate: 192, channels: 2
+00:26:11.849: libfdk_aac encoder created
+00:26:11.849: libfdk_aac bitrate: 192, channels: 2
+00:26:11.850: libfdk_aac encoder created
+00:26:11.850: libfdk_aac bitrate: 192, channels: 2
+00:26:11.850: libfdk_aac encoder created
+00:26:11.850: libfdk_aac bitrate: 192, channels: 2
+00:26:11.850: libfdk_aac encoder created
+00:26:11.850: libfdk_aac bitrate: 192, channels: 2
+00:26:11.855: ==== Recording Start ===============================================
+00:26:11.855: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-20_00-26-11.mp4'...
+00:44:02.136: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+00:44:02.140: [mp4 muxer: 'simple_file_output'] Number of fragments: 271
+00:44:02.187: [mp4 muxer: 'simple_file_output'] Full moov size: 1939 KiB
+00:44:02.187: [mp4 muxer: 'simple_file_output'] Final mdat size: 1141633 KiB
+00:44:02.187: Output 'simple_file_output': stopping
+00:44:02.187: Output 'simple_file_output': Total frames output: 64183
+00:44:02.187: Output 'simple_file_output': Total drawn frames: 64220
+00:44:02.187: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+00:44:02.190: ==== Recording Stop ================================================
+00:44:02.192: [mp4 output: 'simple_file_output'] File output complete. Finalization took 55 ms.
+00:44:02.240: libfdk_aac encoder destroyed
+00:44:02.240: libfdk_aac encoder destroyed
+00:44:02.240: libfdk_aac encoder destroyed
+00:44:02.240: libfdk_aac encoder destroyed
+00:44:02.240: libfdk_aac encoder destroyed
+00:44:02.240: libfdk_aac encoder destroyed
+00:46:49.952: ---------------------------------
+00:46:49.952: [x264 encoder: 'simple_video_recording'] preset: veryfast
+00:46:49.952: [x264 encoder: 'simple_video_recording'] profile: high
+00:46:49.952: [x264 encoder: 'simple_video_recording'] settings:
+00:46:49.952: 	rate_control: CRF
+00:46:49.952: 	bitrate:      0
+00:46:49.952: 	buffer size:  0
+00:46:49.952: 	crf:          23
+00:46:49.952: 	fps_num:      60
+00:46:49.952: 	fps_den:      1
+00:46:49.952: 	width:        1920
+00:46:49.952: 	height:       1080
+00:46:49.952: 	keyint:       250
+00:46:49.952: 
+00:46:49.976: libfdk_aac encoder created
+00:46:49.976: libfdk_aac bitrate: 192, channels: 2
+00:46:49.977: libfdk_aac encoder created
+00:46:49.977: libfdk_aac bitrate: 192, channels: 2
+00:46:49.977: libfdk_aac encoder created
+00:46:49.977: libfdk_aac bitrate: 192, channels: 2
+00:46:49.978: libfdk_aac encoder created
+00:46:49.978: libfdk_aac bitrate: 192, channels: 2
+00:46:49.978: libfdk_aac encoder created
+00:46:49.978: libfdk_aac bitrate: 192, channels: 2
+00:46:49.978: libfdk_aac encoder created
+00:46:49.978: libfdk_aac bitrate: 192, channels: 2
+00:46:49.983: ==== Recording Start ===============================================
+00:46:49.983: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-20_00-46-49.mp4'...
+01:06:14.425: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+01:06:14.449: [mp4 muxer: 'simple_file_output'] Number of fragments: 306
+01:06:14.474: [mp4 muxer: 'simple_file_output'] Full moov size: 2104 KiB
+01:06:14.474: [mp4 muxer: 'simple_file_output'] Final mdat size: 1152920 KiB
+01:06:14.474: Output 'simple_file_output': stopping
+01:06:14.474: Output 'simple_file_output': Total frames output: 69816
+01:06:14.474: Output 'simple_file_output': Total drawn frames: 69328 (69869 attempted)
+01:06:14.474: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 541 (0.8%)
+01:06:14.475: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+01:06:14.477: ==== Recording Stop ================================================
+01:06:14.479: [mp4 output: 'simple_file_output'] File output complete. Finalization took 54 ms.
+01:06:14.494: Video stopped, number of skipped frames due to encoding lag: 733/69868 (1.0%)
+01:06:14.523: libfdk_aac encoder destroyed
+01:06:14.523: libfdk_aac encoder destroyed
+01:06:14.523: libfdk_aac encoder destroyed
+01:06:14.523: libfdk_aac encoder destroyed
+01:06:14.523: libfdk_aac encoder destroyed
+01:06:14.523: libfdk_aac encoder destroyed
+01:06:15.708: ---------------------------------
+01:06:15.708: [x264 encoder: 'simple_video_recording'] preset: veryfast
+01:06:15.708: [x264 encoder: 'simple_video_recording'] profile: high
+01:06:15.708: [x264 encoder: 'simple_video_recording'] settings:
+01:06:15.708: 	rate_control: CRF
+01:06:15.708: 	bitrate:      0
+01:06:15.708: 	buffer size:  0
+01:06:15.708: 	crf:          23
+01:06:15.708: 	fps_num:      60
+01:06:15.708: 	fps_den:      1
+01:06:15.708: 	width:        1920
+01:06:15.708: 	height:       1080
+01:06:15.708: 	keyint:       250
+01:06:15.708: 
+01:06:15.735: libfdk_aac encoder created
+01:06:15.735: libfdk_aac bitrate: 192, channels: 2
+01:06:15.736: libfdk_aac encoder created
+01:06:15.736: libfdk_aac bitrate: 192, channels: 2
+01:06:15.736: libfdk_aac encoder created
+01:06:15.736: libfdk_aac bitrate: 192, channels: 2
+01:06:15.736: libfdk_aac encoder created
+01:06:15.736: libfdk_aac bitrate: 192, channels: 2
+01:06:15.736: libfdk_aac encoder created
+01:06:15.736: libfdk_aac bitrate: 192, channels: 2
+01:06:15.736: libfdk_aac encoder created
+01:06:15.736: libfdk_aac bitrate: 192, channels: 2
+01:06:15.741: ==== Recording Start ===============================================
+01:06:15.741: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-20_01-06-15.mp4'...
+01:22:42.164: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+01:22:42.188: [mp4 muxer: 'simple_file_output'] Number of fragments: 251
+01:22:42.233: [mp4 muxer: 'simple_file_output'] Full moov size: 1785 KiB
+01:22:42.233: [mp4 muxer: 'simple_file_output'] Final mdat size: 983565 KiB
+01:22:42.233: Output 'simple_file_output': stopping
+01:22:42.233: Output 'simple_file_output': Total frames output: 59151
+01:22:42.233: Output 'simple_file_output': Total drawn frames: 59190
+01:22:42.233: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+01:22:42.234: ==== Recording Stop ================================================
+01:22:42.235: [mp4 output: 'simple_file_output'] File output complete. Finalization took 71 ms.
+01:22:42.236: Video stopped, number of skipped frames due to encoding lag: 1/59185 (0.0%)
+01:22:42.258: libfdk_aac encoder destroyed
+01:22:42.258: libfdk_aac encoder destroyed
+01:22:42.258: libfdk_aac encoder destroyed
+01:22:42.258: libfdk_aac encoder destroyed
+01:22:42.258: libfdk_aac encoder destroyed
+01:22:42.258: libfdk_aac encoder destroyed
+01:28:02.177: ---------------------------------
+01:28:02.178: [x264 encoder: 'simple_video_recording'] preset: veryfast
+01:28:02.178: [x264 encoder: 'simple_video_recording'] profile: high
+01:28:02.178: [x264 encoder: 'simple_video_recording'] settings:
+01:28:02.178: 	rate_control: CRF
+01:28:02.178: 	bitrate:      0
+01:28:02.178: 	buffer size:  0
+01:28:02.178: 	crf:          23
+01:28:02.178: 	fps_num:      60
+01:28:02.178: 	fps_den:      1
+01:28:02.178: 	width:        1920
+01:28:02.178: 	height:       1080
+01:28:02.178: 	keyint:       250
+01:28:02.178: 
+01:28:02.206: libfdk_aac encoder created
+01:28:02.206: libfdk_aac bitrate: 192, channels: 2
+01:28:02.206: libfdk_aac encoder created
+01:28:02.207: libfdk_aac bitrate: 192, channels: 2
+01:28:02.207: libfdk_aac encoder created
+01:28:02.207: libfdk_aac bitrate: 192, channels: 2
+01:28:02.207: libfdk_aac encoder created
+01:28:02.207: libfdk_aac bitrate: 192, channels: 2
+01:28:02.207: libfdk_aac encoder created
+01:28:02.207: libfdk_aac bitrate: 192, channels: 2
+01:28:02.207: libfdk_aac encoder created
+01:28:02.207: libfdk_aac bitrate: 192, channels: 2
+01:28:02.212: ==== Recording Start ===============================================
+01:28:02.212: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-20_01-28-02.mp4'...
+02:22:07.195: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+02:22:07.198: [mp4 muxer: 'simple_file_output'] Number of fragments: 825
+02:22:07.303: [mp4 muxer: 'simple_file_output'] Full moov size: 5866 KiB
+02:22:07.303: [mp4 muxer: 'simple_file_output'] Final mdat size: 3165076 KiB
+02:22:07.303: Output 'simple_file_output': stopping
+02:22:07.303: Output 'simple_file_output': Total frames output: 194665
+02:22:07.303: Output 'simple_file_output': Total drawn frames: 194699 (194705 attempted)
+02:22:07.303: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 6 (0.0%)
+02:22:07.303: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+02:22:07.305: ==== Recording Stop ================================================
+02:22:07.315: [mp4 output: 'simple_file_output'] File output complete. Finalization took 119 ms.
+02:22:07.354: libfdk_aac encoder destroyed
+02:22:07.354: libfdk_aac encoder destroyed
+02:22:07.354: libfdk_aac encoder destroyed
+02:22:07.354: libfdk_aac encoder destroyed
+02:22:07.354: libfdk_aac encoder destroyed
+02:22:07.354: libfdk_aac encoder destroyed
+02:25:46.223: ---------------------------------
+02:25:46.223: [x264 encoder: 'simple_video_recording'] preset: veryfast
+02:25:46.223: [x264 encoder: 'simple_video_recording'] profile: high
+02:25:46.223: [x264 encoder: 'simple_video_recording'] settings:
+02:25:46.223: 	rate_control: CRF
+02:25:46.223: 	bitrate:      0
+02:25:46.223: 	buffer size:  0
+02:25:46.223: 	crf:          23
+02:25:46.223: 	fps_num:      60
+02:25:46.223: 	fps_den:      1
+02:25:46.223: 	width:        1920
+02:25:46.223: 	height:       1080
+02:25:46.223: 	keyint:       250
+02:25:46.223: 
+02:25:46.249: libfdk_aac encoder created
+02:25:46.249: libfdk_aac bitrate: 192, channels: 2
+02:25:46.249: libfdk_aac encoder created
+02:25:46.249: libfdk_aac bitrate: 192, channels: 2
+02:25:46.249: libfdk_aac encoder created
+02:25:46.249: libfdk_aac bitrate: 192, channels: 2
+02:25:46.249: libfdk_aac encoder created
+02:25:46.249: libfdk_aac bitrate: 192, channels: 2
+02:25:46.250: libfdk_aac encoder created
+02:25:46.250: libfdk_aac bitrate: 192, channels: 2
+02:25:46.250: libfdk_aac encoder created
+02:25:46.250: libfdk_aac bitrate: 192, channels: 2
+02:25:46.255: ==== Recording Start ===============================================
+02:25:46.255: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/atno/Videos/2025-11-20_02-25-46.mp4'...
+02:58:08.537: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+02:58:08.541: [mp4 muxer: 'simple_file_output'] Number of fragments: 498
+02:58:08.612: [mp4 muxer: 'simple_file_output'] Full moov size: 3515 KiB
+02:58:08.612: [mp4 muxer: 'simple_file_output'] Final mdat size: 1980252 KiB
+02:58:08.612: Output 'simple_file_output': stopping
+02:58:08.612: Output 'simple_file_output': Total frames output: 116506
+02:58:08.612: Output 'simple_file_output': Total drawn frames: 116542
+02:58:08.612: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+02:58:08.614: ==== Recording Stop ================================================
+02:58:08.617: [mp4 output: 'simple_file_output'] File output complete. Finalization took 79 ms.
+02:58:08.638: libfdk_aac encoder destroyed
+02:58:08.638: libfdk_aac encoder destroyed
+02:58:08.638: libfdk_aac encoder destroyed
+02:58:08.638: libfdk_aac encoder destroyed
+02:58:08.638: libfdk_aac encoder destroyed
+02:58:08.638: libfdk_aac encoder destroyed
+03:02:01.339: ==== Shutting down ==================================================
+03:02:01.352: pulse-input: Stopped recording from 'sink-discord.monitor'
+03:02:01.352: pulse-input: Got 926229 packets with 1111474800 frames
+03:02:01.352: pulse-input: Stopped recording from 'win-system-sink.monitor'
+03:02:01.352: pulse-input: Got 936243 packets with 1123491600 frames
+03:02:01.352: pulse-input: Stopped recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo'
+03:02:01.352: pulse-input: Got 936310 packets with 1123572000 frames
+03:02:01.353: v4l2-input: /dev/video0: Stopped capture after 1456838 frames
+03:02:01.359: pulse-input: Stopped recording from 'sink-spotify.monitor'
+03:02:01.359: pulse-input: Got 916084 packets with 1099300800 frames
+03:02:01.398: All scene data cleared
+03:02:01.398: ------------------------------------------------
+03:02:01.455: [obs-websocket] [obs_module_unload] Shutting down...
+03:02:01.455: Tried to call obs_frontend_remove_event_callback with no callbacks!
+03:02:01.455: [obs-websocket] [obs_module_unload] Finished shutting down.
+03:02:01.467: [Scripting] Total detached callbacks: 0
+03:02:01.467: Freeing OBS context data
+03:02:01.515: == Profiler Results =============================
+03:02:01.515: run_program_init: 3153.06 ms
+03:02:01.515:  ┣OBSApp::AppInit: 26.318 ms
+03:02:01.515:  ┃ ┗OBSApp::InitLocale: 4.092 ms
+03:02:01.515:  ┗OBSApp::OBSInit: 660.92 ms
+03:02:01.515:    ┣obs_startup: 10.697 ms
+03:02:01.515:    ┗OBSBasic::OBSInit: 584.053 ms
+03:02:01.515:      ┣OBSBasic::InitBasicConfig: 1.286 ms
+03:02:01.515:      ┣OBSBasic::ResetAudio: 0.498 ms
+03:02:01.515:      ┣OBSBasic::ResetVideo: 161.401 ms
+03:02:01.515:      ┃ ┗obs_init_graphics: 159.182 ms
+03:02:01.516:      ┃   ┗shader compilation: 47.091 ms
+03:02:01.516:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+03:02:01.516:      ┣OBSBasic::InitHotkeys: 0.027 ms
+03:02:01.516:      ┣obs_load_all_modules2: 288.052 ms
+03:02:01.516:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+03:02:01.516:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+03:02:01.516:      ┃ ┣obs_init_module(decklink.so): 0.125 ms
+03:02:01.516:      ┃ ┣obs_init_module(frontend-tools.so): 95.744 ms
+03:02:01.516:      ┃ ┣obs_init_module(image-source.so): 0.007 ms
+03:02:01.516:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+03:02:01.516:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+03:02:01.516:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+03:02:01.516:      ┃ ┣obs_init_module(linux-pipewire.so): 22.082 ms
+03:02:01.516:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.003 ms
+03:02:01.516:      ┃ ┣obs_init_module(linux-v4l2.so): 6.447 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-ffmpeg.so): 14.3 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-filters.so): 0.019 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-nvenc.so): 0.126 ms
+03:02:01.516:      ┃ ┃ ┗nvenc_check: 0.106 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-outputs.so): 0.007 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-qsv11.so): 7.57 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-transitions.so): 0.006 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-vst.so): 0.001 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-webrtc.so): 0.002 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-websocket.so): 6.422 ms
+03:02:01.516:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+03:02:01.516:      ┃ ┣obs_init_module(rtmp-services.so): 0.773 ms
+03:02:01.516:      ┃ ┗obs_init_module(text-freetype2.so): 0.057 ms
+03:02:01.516:      ┣OBSBasic::InitService: 2.255 ms
+03:02:01.516:      ┣OBSBasic::ResetOutputs: 0.297 ms
+03:02:01.516:      ┣OBSBasic::CreateHotkeys: 0.028 ms
+03:02:01.516:      ┣OBSBasic::InitPrimitives: 0.064 ms
+03:02:01.516:      ┗OBSBasic::Load: 90.215 ms
+03:02:01.516: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.829 ms, 99th percentile=0.002 ms, 100% below 25 ms
+03:02:01.516: audio_thread(Audio): min=0.01 ms, median=1.924 ms, max=124.919 ms, 99th percentile=8.28 ms
+03:02:01.516:  ┗receive_audio: min=0.001 ms, median=0.415 ms, max=120.54 ms, 99th percentile=1.191 ms, 3.19461 calls per parent call
+03:02:01.516:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=5.445 ms, 99th percentile=0.011 ms
+03:02:01.516:    ┗do_encode: min=0.058 ms, median=0.41 ms, max=120.528 ms, 99th percentile=1.173 ms
+03:02:01.516:      ┣encode(simple_aac_recording0): min=0.089 ms, median=0.589 ms, max=20.622 ms, 99th percentile=1.28 ms, 0.166667 calls per parent call
+03:02:01.516:      ┣send_packet: min=0 ms, median=0.004 ms, max=119.899 ms, 99th percentile=0.067 ms
+03:02:01.516:      ┣encode(simple_aac_recording1): min=0.06 ms, median=0.121 ms, max=14.289 ms, 99th percentile=0.837 ms, 0.166667 calls per parent call
+03:02:01.516:      ┣encode(simple_aac_recording2): min=0.062 ms, median=0.476 ms, max=17.498 ms, 99th percentile=1.079 ms, 0.166667 calls per parent call
+03:02:01.516:      ┣encode(simple_aac_recording3): min=0.058 ms, median=0.449 ms, max=14.481 ms, 99th percentile=1.126 ms, 0.166667 calls per parent call
+03:02:01.516:      ┣encode(simple_aac_recording4): min=0.056 ms, median=0.102 ms, max=20.162 ms, 99th percentile=0.238 ms, 0.166667 calls per parent call
+03:02:01.516:      ┗encode(simple_aac_recording5): min=0.06 ms, median=0.466 ms, max=16.725 ms, 99th percentile=1.344 ms, 0.166667 calls per parent call
+03:02:01.516: obs_graphics_thread(16.6667 ms): min=0.163 ms, median=2.9 ms, max=59.012 ms, 99th percentile=11.116 ms, 99.7034% below 16.667 ms
+03:02:01.516:  ┣tick_sources: min=0.001 ms, median=0.011 ms, max=18.238 ms, 99th percentile=0.043 ms
+03:02:01.517:  ┣output_frame: min=0.122 ms, median=2.517 ms, max=47.478 ms, 99th percentile=8.13 ms
+03:02:01.517:  ┃ ┣gs_context(video->graphics): min=0.122 ms, median=1.747 ms, max=47.475 ms, 99th percentile=5.588 ms
+03:02:01.517:  ┃ ┃ ┣render_video: min=0.009 ms, median=1.441 ms, max=47.253 ms, 99th percentile=3.753 ms
+03:02:01.517:  ┃ ┃ ┃ ┣render_main_texture: min=0.007 ms, median=1.398 ms, max=47.249 ms, 99th percentile=3.594 ms
+03:02:01.517:  ┃ ┃ ┃ ┣render_convert_texture: min=0.025 ms, median=0.041 ms, max=16.123 ms, 99th percentile=0.112 ms, 0.532239 calls per parent call
+03:02:01.517:  ┃ ┃ ┃ ┗stage_output_texture: min=0.013 ms, median=0.021 ms, max=8.675 ms, 99th percentile=0.06 ms, 0.532239 calls per parent call
+03:02:01.517:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.007 ms, max=14.388 ms, 99th percentile=0.025 ms
+03:02:01.517:  ┃ ┃ ┗download_frame: min=0 ms, median=0.11 ms, max=12.522 ms, 99th percentile=0.361 ms, 0.532239 calls per parent call
+03:02:01.517:  ┃ ┗output_video_data: min=0 ms, median=1.093 ms, max=21.148 ms, 99th percentile=3.858 ms, 0.53223 calls per parent call
+03:02:01.517:  ┗render_displays: min=0.005 ms, median=0.352 ms, max=55.424 ms, 99th percentile=3.736 ms
+03:02:01.517: OBSBasicSettings::LoadThemeList: 0.051 ms
+03:02:01.517: video_thread(video): min=0 ms, median=2.766 ms, max=370.292 ms, 99th percentile=11.723 ms
+03:02:01.517:  ┗receive_video: min=1.475 ms, median=2.765 ms, max=120.878 ms, 99th percentile=11.893 ms
+03:02:01.517:    ┗do_encode: min=1.474 ms, median=2.764 ms, max=120.877 ms, 99th percentile=11.888 ms
+03:02:01.517:      ┣encode(simple_video_recording): min=1.454 ms, median=2.739 ms, max=107.863 ms, 99th percentile=11.799 ms
+03:02:01.517:      ┗send_packet: min=0.002 ms, median=0.016 ms, max=103.694 ms, 99th percentile=0.09 ms
+03:02:01.517: =================================================
+03:02:01.517: == Profiler Time Between Calls ==================
+03:02:01.517: obs_hotkey_thread(25 ms): min=25.011 ms, median=25.077 ms, max=38.908 ms, 97.8235% within ±2% of 25 ms (0% lower, 2.1765% higher)
+03:02:01.517: obs_graphics_thread(16.6667 ms): min=3.016 ms, median=16.667 ms, max=59.188 ms, 96.8054% within ±2% of 16.667 ms (1.57403% lower, 1.62061% higher)
+03:02:01.517: =================================================
+03:02:01.794: Number of memory leaks: 0

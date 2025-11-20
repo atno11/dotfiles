@@ -1,0 +1,135 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "e58a7a1a79a5fd8ba663258dd3a86408191addcf7413b79d50ee3522c2904e01",
+    "telemetry.devDeviceId": "ac1648aa-41ca-45e5-9482-2c48097ad7c5",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/atno/.config/pulse"
+            },
+            {
+                "folderUri": "file:///home/atno/.ssh"
+            },
+            {
+                "folderUri": "file:///home/atno/repositories/atno11/auto-setup"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/atno/repositories/auto-setup": "__default__profile__",
+            "file:///home/atno/.config/cava": "__default__profile__",
+            "file:///home/atno/.config": "__default__profile__",
+            "file:///home/atno/.config/hypr": "__default__profile__",
+            "file:///home/atno": "__default__profile__",
+            "file:///home/atno/.config/waybar": "__default__profile__",
+            "file:///home/atno/.config/atno11": "__default__profile__",
+            "file:///home/atno/.config/matugen": "__default__profile__",
+            "file:///home/atno/.config/rofi": "__default__profile__",
+            "file:///home/atno/.config/swaync": "__default__profile__",
+            "file:///home/atno/.config/matugen/templates": "__default__profile__",
+            "file:///home/atno/.config/ghostty": "__default__profile__",
+            "file:///home/atno/.config/pulse": "__default__profile__",
+            "file:///home/atno/.config/pipewire/pipewire.conf.d": "__default__profile__",
+            "file:///home/atno/.config/pipewire": "__default__profile__",
+            "file:///home/atno/repositories/atno11": "__default__profile__",
+            "file:///home/atno/.ssh": "__default__profile__",
+            "file:///usr/share/wayland-sessions": "__default__profile__",
+            "file:///etc": "__default__profile__",
+            "file:///home/atno/repositories/atno11/auto-setup": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/atno/repositories/atno11/auto-setup",
+            "backupPath": "/home/atno/.config/Code/Backups/8fa04d79532cc38ce90de81011b26f0c",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1080,
+                "height": 1415,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 223,
+            "auxiliaryBarWidth": 223,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 223,
+            "auxiliaryBarWidth": 223,
+            "workspaces": {
+                "466f0b4cd21f3529f6739bb5bcdb87cb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e7102d87725bd5dd6f2ebc01e1d33119": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c3f0d09030152c522693dfc66b504094": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "a61b30f6ae367dd661492e4c7d313fed": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "f860607a15f2d0b6e914ecf6bbe79cee": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "36df812ac67a4a0bcffd718610d34f5b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "dfd7dacc58bf89053ad182d272829b05": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "372812518f2fbde5322feaad2e239265": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "b5c2861bb5294392646cbc78b3380f41": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

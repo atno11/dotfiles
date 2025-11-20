@@ -1,0 +1,11 @@
+[includeIf "gitdir:~/repositories/atno11/"]
+    path = ~/.gitconfig-atno11
+
+[includeIf "gitdir:~/repositories/atno11/**"]
+    path = ~/.gitconfig-atno11
+
+[includeIf "gitdir:~/repositories/gilmardossantos/"]
+    path = ~/.gitconfig-gilmardossantos
+
+[includeIf "gitdir:~/repositories/gilmardossantos/**"]
+    path = ~/.gitconfig-gilmardossantos

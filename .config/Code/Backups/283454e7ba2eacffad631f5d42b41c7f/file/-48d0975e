@@ -1,0 +1,37 @@
+file:///home/atno/.config/pulse/50-vban-send.conf {"mtime":1763501130013,"ctime":1763500827565,"size":1085,"etag":"3f6ljpssg140","orphaned":false,"typeId":""}
+context.modules = [
+    {
+        name = libpipewire-module-vban-send
+        args = {
+            destination.ip = "192.168.0.100"
+            destination.port = 6980
+            sess.name = "ARCH_MIC"
+            sess.media = "audio"
+            audio.rate = 48000
+            audio.channels = 2
+            audio.position = [ FL FR ]
+            stream.props = {
+                node.name = "vban-send-mic"
+                node.description = "VBAN Send - Mic > Windows"
+                media.class = "Audio/Sink"
+            }
+        }
+    }
+    {
+        name = libpipewire-module-vban-send
+        args = {
+            destination.ip = "192.168.0.100"
+            destination.port = 69816b 
+            sess.name = "ARCH_HEADSET"
+            sess.media = "audio"
+            audio.rate = 48000
+            audio.channels = 2
+            audio.position = [ FL FR ]
+            stream.props = {
+                node.name = "vban-send-headset"
+                node.description = "VBAN Send - Headset > Windows"
+                media.class = "Audio/Sink"
+            }
+        }
+    }
+]

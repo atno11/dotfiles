@@ -1,0 +1,18 @@
+{
+    "modules-left": [
+        "custom/power",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "tray",
+        "bluetooth",
+        "network",
+        "battery",
+        "pulseaudio",
+        "clock",
+
+    ]
+}

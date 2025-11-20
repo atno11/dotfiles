@@ -1,0 +1,9 @@
+{
+  "BACKGROUND_COLOR": "#2c2d32",
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "offloadAdmControls": true,
+  "enableHardwareAcceleration": true,
+  "chromiumSwitches": {},
+  "asyncVideoInputDeviceInit": false
+}

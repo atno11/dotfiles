@@ -1,0 +1,12 @@
+2025-11-20 11:29:30.596 [info] Extension host with pid 14655 started
+2025-11-20 11:29:30.596 [info] Skipping acquiring lock for /home/atno/.config/Code/User/workspaceStorage/b5c2861bb5294392646cbc78b3380f41.
+2025-11-20 11:29:30.693 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-20 11:29:30.753 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-20 11:29:30.841 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-20 11:29:30.847 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-20 11:29:30.909 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-20 11:29:31.111 [info] Eager extensions activated
+2025-11-20 11:29:31.224 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-20 11:29:31.229 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-20 11:29:45.702 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-20 11:29:45.739 [info] Extension host with pid 14655 exiting with code 0

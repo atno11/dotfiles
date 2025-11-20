@@ -1,0 +1,28 @@
+11/19/2025, 8:32:02 PM GMT-3 10: ✅ webContents.did-finish-load web1
+11/19/2025, 8:32:03 PM GMT-3 11: ✅ webContents.created web2 ""
+11/19/2025, 8:32:03 PM GMT-3 12: ✅ window.created win2 "Discord"
+11/19/2025, 8:32:04 PM GMT-3 13: ✅ webContents.did-finish-load web2
+11/19/2025, 8:32:05 PM GMT-3 14: window.close win1
+11/19/2025, 8:32:05 PM GMT-3 15: webContents.destroyed web1
+11/19/2025, 8:32:05 PM GMT-3 16: window.closed win1
+11/19/2025, 8:32:06 PM GMT-3 17: window.close win2
+11/19/2025, 8:32:11 PM GMT-3 0: 
+
+----------------------------------------------
+11/20/2025, 3:01:59 AM GMT-3 18: window.close win2
+11/20/2025, 10:55:36 AM GMT-3 19: before-quit
+11/20/2025, 10:55:36 AM GMT-3 20: window.close win2
+11/20/2025, 10:55:36 AM GMT-3 21: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'audio.mojom.AudioService',
+  name: 'Audio Service'
+}
+11/20/2025, 10:55:36 AM GMT-3 22: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'network.mojom.NetworkService',
+  name: 'Network Service'
+}

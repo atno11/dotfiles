@@ -1,0 +1,27 @@
+2025-11-20 11:15:24.925 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-20 11:15:25.151 [info] Started local extension host with pid 14543.
+2025-11-20 11:15:26.082 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-20 11:15:26.218 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-20 11:15:27.831 [info] [perf] Render performance baseline is 34ms
+2025-11-20 11:15:30.925 [error] Error: Unable to write file '/etc/sddm.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/sddm.conf')
+    at Kkt.writeFile (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:63694)
+    at async Kkt.createFile (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:63183)
+    at async Promise.all (index 0)
+    at async Object.e [as settled] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:81750)
+    at async z3e.doCreateFileOrFolder (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:533:3352)
+    at async OLe.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:9794)
+    at async Tpt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:12711)
+    at async Ppt.n (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18775)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18430)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-20 11:15:30.931 [error] Unable to write file '/etc/sddm.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/sddm.conf'): Error: Unable to write file '/etc/sddm.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/sddm.conf')
+    at Kkt.writeFile (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:63694)
+    at async Kkt.createFile (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3828:63183)
+    at async Promise.all (index 0)
+    at async Object.e [as settled] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:81750)
+    at async z3e.doCreateFileOrFolder (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:533:3352)
+    at async OLe.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:9794)
+    at async Tpt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:12711)
+    at async Ppt.n (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18775)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18430)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
